@@ -1,0 +1,18 @@
+# dart run flutter_native_splash:create
+flutter_native_splash:
+  # Light mode: black wordmark on white. Dark mode: white wordmark on black.
+  color: "#ffffff"
+  image: "assets/icons/splash_light.png"
+  color_dark: "#000000"
+  image_dark: "assets/icons/splash_dark.png"
+
+  # Android 12+ masks the splash icon to a circle, so it uses padded square versions.
+  android_12:
+    color: "#ffffff"
+    image: "assets/icons/splash_android12_light.png"
+    color_dark: "#000000"
+    image_dark: "assets/icons/splash_android12_dark.png"
+
+  android: true
+  ios: true
+  web: false
